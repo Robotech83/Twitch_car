@@ -129,7 +129,6 @@ void loop() {
       digitalWrite(rightMotorPin1, LOW);
       digitalWrite(rightMotorPin2, HIGH);
     }
-
     void stopRobot() {
       digitalWrite(leftMotorPin1, LOW);
       digitalWrite(leftMotorPin2, LOW);
